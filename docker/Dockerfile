@@ -1,4 +1,4 @@
-# Dummy since Steam doesn't support arm64
+
 FROM --platform=$BUILDPLATFORM scratch AS steam-arm64
 COPY docker/not-supported /home/steam/steamcmd/linux64/
 
