@@ -9,7 +9,7 @@ services:
       - "9600:9600/udp"
       - "8081:8081"
     volumes:
-      - ./data/:/data
+      - C:\Program Files (x86)\Steam\steamapps\common\Assetto Corsa Dedicated Server\:/data
     environment:
       - TZ=Europe/Berlin
     restart: always
